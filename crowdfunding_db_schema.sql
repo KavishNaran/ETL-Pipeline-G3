@@ -1,3 +1,8 @@
+-- Tables were created in the order shown below (First Category, then Subcategory, then Contacts, and finally Campaign). 
+-- After all the tables were created, with right click on each table, then "Import/Export Data" option and then browsing the csv file, 
+-- we imported the data from each csv file to each table. 
+-- Data was imported in the same order shown below as well. 
+
 -- Create table Category
 DROP TABLE IF EXISTS CATEGORY CASCADE;
 CREATE TABLE CATEGORY (
@@ -47,8 +52,8 @@ CREATE TABLE CAMPAIGN (
 	PRIMARY KEY(CF_ID)
 );
 
--- I CREATED THE TABLE FIRST CAMPAIGN WITH VARCHARS FOR COLUMNS LAUNCH_DATE AND END_DATE, THEN IMPORTED THE CSV FILE 
--- AND FINALLY CHANGED THE DATATYPE
+-- WE CREATED THE TABLE CAMPAIGN FIRST WITH VARCHARS FOR COLUMNS LAUNCH_DATE AND END_DATE, THEN IMPORTED THE CSV FILE 
+-- AND FINALLY CHANGED THE DATATYPE AS SHOWN BELOW
 ALTER TABLE CAMPAIGN ALTER COLUMN LAUNCH_DATE TYPE DATE 
 USING to_date(LAUNCH_DATE, 'YYYY-MM-DD');
 
