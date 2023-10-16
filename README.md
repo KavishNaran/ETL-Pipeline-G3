@@ -17,12 +17,17 @@ This project involved creating an ETL (Extract, Transform & Load) pipeline to pr
 - Extracted and transformed the crowdfunding.xlsx Excel data to created a subcategory DataFrame.
 
 ## Create the Campaign DataFrame
--Extracted and transformed the crowdfunding.xlsx Excel data to create a campaign DataFrame.
--Export the campaign DataFrame as campaign.csv and uploaded it to Github
+- Extracted and transformed the crowdfunding.xlsx Excel data to create a campaign DataFrame.
+- Export the campaign DataFrame as campaign.csv and uploaded it to Github.
 
 ## Create the Contacts DataFrame
+- Imported the DataFrame and extracted and transforming the data.
+- Export the contacts.CSV and uploaded it to Github.
+  
 ## Create the Crowdfunding Database
-
-ERD Diagram
+- Create an ERD Diagram (refer to below).
+- Create a Postgres Schema and assigned relevant keys.
+  
+# ERD Diagram
 
 ![ERD Diagram](https://github.com/KavishNaran/ETL-Pipeline-G3/assets/138082383/db90ea18-7c7d-4d0a-b889-fa443f38ffc3)
