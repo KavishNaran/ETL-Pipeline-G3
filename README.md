@@ -18,3 +18,4 @@ Create the Crowdfunding Database
 
 ERD Diagram
 
+![ERD Diagram](https://github.com/KavishNaran/ETL-Pipeline-G3/assets/138082383/db90ea18-7c7d-4d0a-b889-fa443f38ffc3)
